@@ -1,4 +1,5 @@
-from flask import Flask, json
+from flask import Flask
+from itsdangerous import json as _json
 
 app = Flask(__name__)
 
